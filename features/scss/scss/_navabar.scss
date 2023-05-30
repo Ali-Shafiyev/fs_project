@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 1440px;
+    height: 96px;
+  }
+  
+  .header1 {
+    height: 40px;
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 112px;
+  }
+  
+  .light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32px;
+  }
+  
+  .light1 {
+    width: 32px;
+    height: 32px;
+    border-radius: 300px;
+    background-color: #ff3d71;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .light2 {
+    width: 18px;
+    height: 4px;
+    border-radius: 2.5px;
+    background-color: #ff3d71;
+    margin-top: 2px;
+  }
+  
+  .light3 {
+    width: 12px;
+    height: 4px;
+    border-radius: 2.5px;
+    background-color: #ff3d71;
+    margin-top: 2px;
+  }
+ 
+  
+  .lighttext {
+    font-family: "Euclid Circular A", sans-serif;
+    font-size: 24px;
+    margin-left: 16px;
+    color: #2e3a59;
+  }
+
+  
+  .headlink a {
+    color: #2e3a59;
+    font-family: "Euclid Circular A", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 48px;
+  }
+  .headlink a :hover{
+    color: #ff3d71;
+  }
+  .headlink a:first-child {
+    margin-left: 242px;
+  }
+  
+  .headbutton {
+    display: flex;
+  }
+  
+  .try {
+    color: #2e3a59;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 40px;
+    border: #c5cee0 solid;
+    margin-right: 10px;
+    font-family: "Euclid Circular A", sans-serif;
+    margin-left: 119px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .try:hover {
+    cursor: pointer;
+    background-color: #ff3d71;
+  }
+  
+  .buy {
+    border: none;
+    width: 155px;
+    height: 40px;
+    color: white;
+    background-color: #ff3d71;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: "Euclid Circular A", sans-serif;
+  }
+  
+  .buy:hover {
+    cursor: pointer;
+    background-color: #2e3a59;
+  } 

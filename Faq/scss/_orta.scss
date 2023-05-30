@@ -1,0 +1,160 @@
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  left: 685px;
+  top: 145px;
+  font-family: "Euclid Circular A";
+  color: #2e3a59;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  .div1 {
+    p {
+      position: absolute;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      right: 0%;
+      font-family: "Euclid Circular A";
+      bottom: 26.15%;
+      height: 48px;
+      width: 800px;
+      left: 344px;
+      top: 223px;
+    }
+    .img1 {
+      position: relative;
+      top: 110px;
+      left: 1080px;
+    }
+  }
+  .div2 {
+    p {
+      position: absolute;
+      left: 344px;
+      right: 39.12%;
+      top: 338px;
+      bottom: 81.63%;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: #2e3a59;
+    }
+    img {
+      position: absolute;
+      left: 1080px;
+      top: 340px;
+    }
+    dl {
+      position: absolute;
+      width: 648px;
+      height: 144px;
+      left: 368px;
+      top: 394px;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #2e3a59;
+    }
+  }
+  .div3 {
+    p {
+      position: absolute;
+      left: 344px;
+      right: 13%;
+      top: 607px;
+      bottom: 40.61%;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: #2e3a59;
+    }
+    img {
+      position: absolute;
+      left: 1080px;
+      right: 16.67%;
+      top: 607px;
+      bottom: 16.67%;
+    }
+  }
+  .div4 {
+    p {
+      position: absolute;
+      left: 344px;
+
+      top: 724px;
+      bottom: 41.54%;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #2e3a59;
+    }
+    img {
+      position: absolute;
+      left: 1080px;
+      top: 724px;
+    }
+  }
+  .div5 {
+    p {
+      position: absolute;
+      left: 344px;
+
+      top: 813px;
+      bottom: 41.54%;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #2e3a59;
+    }
+    img {
+      position: absolute;
+      left: 1080px;
+      top: 815px;
+    }
+  }
+  .div6 {
+ p{
+    position: absolute;
+    left: 344px;
+
+    top: 902px;
+    bottom: 41.54%;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2e3a59;
+ }
+ img{
+    position: absolute;
+left: 1080px;
+right: 16.67%;
+top: 902px;
+bottom: 16.67%;
+ }
+  }
+  
+
+}

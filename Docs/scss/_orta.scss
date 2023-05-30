@@ -1,0 +1,229 @@
+h2 {
+    position: static;
+    text-align: center;
+    color: #2e3a59;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    top: 48px;
+  }
+  
+  .list {
+    position: relative;
+    top: 110px;
+    padding-left: 136px;
+    font-family: "Euclid Circular A";
+  }
+  
+  .list1 .list1-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: relative;
+    top: 30px;
+    color: #2e3a59;
+    display: none;
+  }
+  
+  .list1 .get:hover .list1-1 {
+    display: block;
+  }
+  
+  .list1 p {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .li1:hover,
+  .li2:hover,
+  .li3:hover {
+    color: #ff3d71;
+  }
+  
+  .list2 .list2-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: relative;
+    top: 52px;
+    color: #2e3a59;
+    display: none;
+  }
+  
+  .list2 p {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    top: 52px;
+    display: inline;
+  }
+  
+  .list2 .social:hover .list2-2 {
+    display: block;
+  }
+  
+  .list2 .list2-2 li:hover {
+    color: #ff3d71;
+  }
+  
+  .list3 p {
+    position: relative;
+    top: 78px;
+    cursor: pointer;
+  }
+  
+  .list4 {
+    position: relative;
+    top: 104px;
+    cursor: pointer;
+  }
+  
+  .list5 {
+    position: relative;
+    top: 130px;
+    cursor: pointer;
+  }
+  
+  .list6 {
+    position: relative;
+    top: 156px;
+    cursor: pointer;
+  }
+  
+  .list7 {
+    position: relative;
+    top: 182px;
+    cursor: pointer;
+  }
+  
+  .list8 {
+    position: relative;
+    top: 208px;
+    cursor: pointer;
+  }
+  
+  .list9 {
+    position: relative;
+    top: 234px;
+    cursor: pointer;
+  }
+  
+  .list10 {
+    position: relative;
+    top: 260px;
+    cursor: pointer;
+  }
+  
+  .line {
+    position: absolute;
+    top: 50%;
+    left: 495px;
+    transform: translateY(-15%);
+    width: 1px;
+    height: 120vh;
+    background-color: lightgray;
+  }
+  .plugin {
+    font-family: "Euclid Circular A";
+    .plug {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: #2e3a59;
+      position: absolute;
+      left: 528px;
+      top: 257px;
+    }
+    .p1 {
+      position: absolute;
+      width: 696px;
+      height: 312px;
+      left: 528px;
+      top: 321px;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .p2 {
+      position: absolute;
+      width: 696px;
+      height: 312px;
+      left: 528px;
+      top: 400px;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .p3 {
+      position: absolute;
+      width: 696px;
+      height: 312px;
+      left: 528px;
+      top: 550px;
+  
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .option {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      position: absolute;
+      width: 470px;
+      height: 28px;
+      left: 528px;
+      top: 649px;
+    }
+    .p4 {
+      position: absolute;
+      width: 696px;
+      height: 264px;
+      left: 528px;
+      top: 717px;
+    }
+    .p5 {
+      position: absolute;
+      width: 696px;
+      height: 264px;
+      left: 528px;
+      top: 817px;
+    }
+    .p6 {
+      position: absolute;
+      width: 696px;
+      height: 264px;
+      left: 528px;
+      top: 870px;
+    }
+    img {
+      position: absolute;
+      width: 696px;
+      height: 224px;
+      left: 528px;
+      top: 980px;
+    }
+  }
+  

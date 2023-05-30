@@ -1,0 +1,279 @@
+.bar {
+    position: relative;
+    top: 1150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ff708d;
+    border-radius: 16px;
+    height: 240px;
+    width: 1216px;
+  }
+  
+  .bar span {
+    position: absolute;
+    top: 48px;
+    left: 25%;
+    transform: translateX(-50%);
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #ffffff;
+  }
+  
+  .bar p {
+    position: absolute;
+    left: 5.26%;
+    right: 51.32%;
+    top: 53.33%;
+    bottom: 26.67%;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  
+  .bar .circle1 {
+    position: absolute;
+    height: 374px;
+    width: 374px;
+    left: -54px;
+    top: 85px;
+    border-radius: 400px;
+    background: #ffffff14;
+  }
+  
+  .bar .circle2 {
+    border-radius: 400px;
+    background: #ffffff14;
+    position: absolute;
+    left: -1.56%;
+    right: 76.56%;
+    top: 74.58%;
+    bottom: -101.25%;
+  }
+  
+  .bar .try {
+    position: absolute;
+    top: 96px;
+    left: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    width: 174px;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .bar .try:hover {
+    background-color: #ff708d;
+  }
+  
+  .bar .Buy {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    color: #ffffff;
+    width: 174px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    left: 1010px;
+    top: 96px;
+    background: #222b45;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .bar .Buy:hover {
+    background-color: #ff708d;
+  }
+  
+  .end {
+    font-family: "Euclid Circular A", sans-serif;
+    position: relative;
+    background: #f7f9fc;
+    height: 403px;
+    width: 100%;
+    left: 0;
+    top: 1241px;
+  }
+  
+  .end img {
+    position: absolute;
+    top: 57px;
+    left: 112px;
+  }
+  
+  .end .p1 {
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    left: 160px;
+    top: 65px;
+    color: #2e3a59;
+  }
+  
+  .end .p2 {
+    position: absolute;
+    left: 7.78%;
+    right: 77.78%;
+    top: 33%;
+    bottom: 49.13%;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2e3a59;
+  }
+  
+  .end .ulend1 {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    position: absolute;
+    left: 29.44%;
+    right: 64.03%;
+    top: 63px;
+    bottom: 77.42%;
+    color: #2e3a59;
+  }
+  
+  .end .ulend1 li {
+    top: 28.54%;
+    cursor: pointer;
+  }
+  
+  .end .ulend2 {
+    position: absolute;
+    left: 51.11%;
+    right: 43.68%;
+    top: 15.63%;
+    bottom: 77.42%;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2e3a59;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  
+  .contact {
+    .con {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      position: absolute;
+      left: 72.78%;
+      right: 21.67%;
+      top: 15.63%;
+      bottom: 77.42%;
+    }
+    img {
+      position: absolute;
+      left: 72.78%;
+      right: 25.56%;
+      top: 28.54%;
+      bottom: 65.51%;
+    }
+    p {
+      position: absolute;
+      left: 75.28%;
+      right: 14.58%;
+      top: 28.54%;
+      bottom: 65.51%;
+      font-family: "Euclid Circular A";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #2e3a59;
+    }
+    .a1 {
+      position: absolute;
+      left: 62.78%;
+      right: 23.89%;
+      top: 46.4%;
+      bottom: 41.69%;
+    }
+    .a2 {
+      position: absolute;
+      left: 67.78%;
+      right: 18.89%;
+      top: 46.4%;
+      bottom: 41.69%;
+    }
+    .a3 {
+      position: absolute;
+      left: 72.78%;
+      right: 13.89%;
+      top: 46.4%;
+      bottom: 41.69%;
+  
+      border-radius: 0px;
+    }
+    .a4 {
+      position: absolute;
+      left: 77.78%;
+      right: 8.89%;
+      top: 46.4%;
+      bottom: 41.69%;
+    }
+  }
+  .fs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2e3a59;
+    position: absolute;
+    top: 355px;
+    left: 144px;
+  }
+  .terms {
+    text-decoration: none;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #2e3a59;
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 1025px;
+    top: 355px;
+  }
+  .pri {
+    text-decoration: none;
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    left: 1222px;
+    top: 355px;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #2e3a59;
+  }
+  

@@ -1,0 +1,628 @@
+@import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
+.bar {
+  position: relative;
+  top: 1150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ff708d;
+  border-radius: 16px;
+  height: 240px;
+  width: 1216px;
+}
+
+.bar h1 {
+  position: absolute;
+  top: 48px;
+  left: 25%;
+  transform: translateX(-50%);
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.bar p {
+  position: absolute;
+  left: 5.26%;
+  right: 51.32%;
+  top: 53.33%;
+  bottom: 26.67%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.bar .circle1 {
+  position: absolute;
+  height: 374px;
+  width: 374px;
+  left: -54px;
+  top: 85px;
+  border-radius: 400px;
+  background: rgba(255, 255, 255, 0.0784313725);
+}
+
+.bar .circle2 {
+  border-radius: 400px;
+  background: rgba(255, 255, 255, 0.0784313725);
+  position: absolute;
+  left: -1.56%;
+  right: 76.56%;
+  top: 74.58%;
+  bottom: -101.25%;
+}
+
+.bar .try {
+  position: absolute;
+  top: 96px;
+  left: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  width: 174px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.bar .try:hover {
+  background-color: #ff708d;
+}
+
+.bar .Buy {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  color: #ffffff;
+  width: 174px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  left: 1010px;
+  top: 96px;
+  background: #222b45;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bar .Buy:hover {
+  background-color: #ff708d;
+}
+
+.end {
+  font-family: "Euclid Circular A", sans-serif;
+  position: relative;
+  background: #f7f9fc;
+  height: 403px;
+  width: 100%;
+  left: 0;
+  top: 1241px;
+}
+
+.end img {
+  position: absolute;
+  top: 57px;
+  left: 112px;
+}
+
+.end .p1 {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  left: 160px;
+  top: 65px;
+  color: #2e3a59;
+}
+
+.end .p2 {
+  position: absolute;
+  left: 7.78%;
+  right: 77.78%;
+  top: 33%;
+  bottom: 49.13%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e3a59;
+}
+
+.end .ulend1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  position: absolute;
+  left: 29.44%;
+  right: 64.03%;
+  top: 63px;
+  bottom: 77.42%;
+  color: #2e3a59;
+}
+
+.end .ulend1 li {
+  top: 28.54%;
+  cursor: pointer;
+}
+
+.end .ulend2 {
+  position: absolute;
+  left: 51.11%;
+  right: 43.68%;
+  top: 15.63%;
+  bottom: 77.42%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2e3a59;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.contact .con {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  position: absolute;
+  left: 72.78%;
+  right: 21.67%;
+  top: 15.63%;
+  bottom: 77.42%;
+}
+.contact img {
+  position: absolute;
+  left: 72.78%;
+  right: 25.56%;
+  top: 28.54%;
+  bottom: 65.51%;
+}
+.contact p {
+  position: absolute;
+  left: 75.28%;
+  right: 14.58%;
+  top: 28.54%;
+  bottom: 65.51%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e3a59;
+}
+.contact .a1 {
+  position: absolute;
+  left: 62.78%;
+  right: 23.89%;
+  top: 46.4%;
+  bottom: 41.69%;
+}
+.contact .a2 {
+  position: absolute;
+  left: 67.78%;
+  right: 18.89%;
+  top: 46.4%;
+  bottom: 41.69%;
+}
+.contact .a3 {
+  position: absolute;
+  left: 72.78%;
+  right: 13.89%;
+  top: 46.4%;
+  bottom: 41.69%;
+  border-radius: 0px;
+}
+.contact .a4 {
+  position: absolute;
+  left: 77.78%;
+  right: 8.89%;
+  top: 46.4%;
+  bottom: 41.69%;
+}
+
+.fs {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e3a59;
+  position: absolute;
+  top: 355px;
+  left: 144px;
+}
+
+.terms {
+  text-decoration: none;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #2e3a59;
+  position: absolute;
+  width: 165px;
+  height: 24px;
+  left: 1025px;
+  top: 355px;
+}
+
+.pri {
+  text-decoration: none;
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 1222px;
+  top: 355px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #2e3a59;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1440px;
+  height: 96px;
+}
+
+.header1 {
+  height: 40px;
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 112px;
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32px;
+}
+
+.light1 {
+  width: 32px;
+  height: 32px;
+  border-radius: 300px;
+  background-color: #ff3d71;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light2 {
+  width: 18px;
+  height: 4px;
+  border-radius: 2.5px;
+  background-color: #ff3d71;
+  margin-top: 2px;
+}
+
+.light3 {
+  width: 12px;
+  height: 4px;
+  border-radius: 2.5px;
+  background-color: #ff3d71;
+  margin-top: 2px;
+}
+
+.lighttext {
+  font-family: "Euclid Circular A", sans-serif;
+  font-size: 24px;
+  margin-left: 16px;
+  color: #2e3a59;
+}
+
+.headlink a {
+  color: #2e3a59;
+  font-family: "Euclid Circular A", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 48px;
+}
+
+.headlink a :hover {
+  color: #ff3d71;
+}
+
+.headlink a:first-child {
+  margin-left: 242px;
+}
+
+.headbutton {
+  display: flex;
+}
+
+.try {
+  color: #2e3a59;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 40px;
+  border: #c5cee0 solid;
+  margin-right: 10px;
+  font-family: "Euclid Circular A", sans-serif;
+  margin-left: 119px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.try:hover {
+  cursor: pointer;
+  background-color: #ff3d71;
+}
+
+.buy {
+  border: none;
+  outline: none;
+  width: 155px;
+  height: 40px;
+  color: white;
+  background-color: #ff3d71;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+.buy:hover {
+  cursor: pointer;
+  background-color: #2e3a59;
+}
+
+h2 {
+  position: static;
+  text-align: center;
+  color: #2e3a59;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  top: 48px;
+}
+
+.list {
+  position: relative;
+  top: 110px;
+  padding-left: 136px;
+  font-family: "Euclid Circular A";
+}
+
+.list1 .list1-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  position: relative;
+  top: 30px;
+  color: #2e3a59;
+  display: none;
+}
+
+.list1 .get:hover .list1-1 {
+  display: block;
+}
+
+.list1 p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  height: 24px;
+  cursor: pointer;
+}
+
+.li1:hover,
+.li2:hover,
+.li3:hover {
+  color: #ff3d71;
+}
+
+.list2 .list2-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  position: relative;
+  top: 52px;
+  color: #2e3a59;
+  display: none;
+}
+
+.list2 p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+  top: 52px;
+  display: inline;
+}
+
+.list2 .social:hover .list2-2 {
+  display: block;
+}
+
+.list2 .list2-2 li:hover {
+  color: #ff3d71;
+}
+
+.list3 p {
+  position: relative;
+  top: 78px;
+  cursor: pointer;
+}
+
+.list4 {
+  position: relative;
+  top: 104px;
+  cursor: pointer;
+}
+
+.list5 {
+  position: relative;
+  top: 130px;
+  cursor: pointer;
+}
+
+.list6 {
+  position: relative;
+  top: 156px;
+  cursor: pointer;
+}
+
+.list7 {
+  position: relative;
+  top: 182px;
+  cursor: pointer;
+}
+
+.list8 {
+  position: relative;
+  top: 208px;
+  cursor: pointer;
+}
+
+.list9 {
+  position: relative;
+  top: 234px;
+  cursor: pointer;
+}
+
+.list10 {
+  position: relative;
+  top: 260px;
+  cursor: pointer;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 495px;
+  transform: translateY(-15%);
+  width: 1px;
+  height: 120vh;
+  background-color: lightgray;
+}
+
+.plugin {
+  font-family: "Euclid Circular A";
+}
+.plugin .plug {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e3a59;
+  position: absolute;
+  left: 528px;
+  top: 257px;
+}
+.plugin .p1 {
+  position: absolute;
+  width: 696px;
+  height: 312px;
+  left: 528px;
+  top: 321px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.plugin .p2 {
+  position: absolute;
+  width: 696px;
+  height: 312px;
+  left: 528px;
+  top: 400px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.plugin .p3 {
+  position: absolute;
+  width: 696px;
+  height: 312px;
+  left: 528px;
+  top: 550px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.plugin .option {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  position: absolute;
+  width: 470px;
+  height: 28px;
+  left: 528px;
+  top: 649px;
+}
+.plugin .p4 {
+  position: absolute;
+  width: 696px;
+  height: 264px;
+  left: 528px;
+  top: 717px;
+}
+.plugin .p5 {
+  position: absolute;
+  width: 696px;
+  height: 264px;
+  left: 528px;
+  top: 817px;
+}
+.plugin .p6 {
+  position: absolute;
+  width: 696px;
+  height: 264px;
+  left: 528px;
+  top: 870px;
+}
+.plugin img {
+  position: absolute;
+  width: 696px;
+  height: 224px;
+  left: 528px;
+  top: 980px;
+}/*# sourceMappingURL=style.css.map */
